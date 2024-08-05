@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-04T21:08:31 IST" name="Surefire suite" finished-at="2024-08-04T21:08:31 IST" duration-ms="36">
+    <groups>
+    </groups>
+    <test started-at="2024-08-04T21:08:31 IST" name="Surefire test" finished-at="2024-08-04T21:08:31 IST" duration-ms="36">
+      <class name="selenium.MyFirstMavenProject.AppTest">
+        <test-method signature="shouldAnswerWithFalse()[pri:0, instance:selenium.MyFirstMavenProject.AppTest@7770f470]" started-at="2024-08-04T21:08:31 IST" name="shouldAnswerWithFalse" finished-at="2024-08-04T21:08:31 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithFalse -->
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:selenium.MyFirstMavenProject.AppTest@7770f470]" started-at="2024-08-04T21:08:31 IST" name="shouldAnswerWithTrue" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- selenium.MyFirstMavenProject.AppTest -->
+      <class name="testng.MyTest">
+        <test-method is-config="true" signature="methodBeforeSuiteInBaseClass()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodBeforeSuiteInBaseClass" finished-at="2024-08-04T21:08:31 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBeforeSuiteInBaseClass -->
+        <test-method is-config="true" signature="methodBeforeSuite()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodBeforeSuite" finished-at="2024-08-04T21:08:31 IST" depends-on-methods="testng.BaseClass.methodBeforeSuiteInBaseClass" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBeforeSuite -->
+        <test-method is-config="true" signature="methodBeforeTestBase()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodBeforeTestBase" finished-at="2024-08-04T21:08:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBeforeTestBase -->
+        <test-method is-config="true" signature="methodBeforeTest()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodBeforeTest" finished-at="2024-08-04T21:08:31 IST" depends-on-methods="testng.BaseClass.methodBeforeTestBase" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBeforeTest -->
+        <test-method is-config="true" signature="methodBeforeClass()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodBeforeClass" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBeforeClass -->
+        <test-method signature="method3()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="method3" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method is-config="true" signature="methodBeforeMethod()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodBeforeMethod" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBeforeMethod -->
+        <test-method is-config="true" signature="methodAfterMethod()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodAfterMethod" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodAfterMethod -->
+        <test-method is-config="true" signature="methodBeforeMethod()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodBeforeMethod" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBeforeMethod -->
+        <test-method signature="method4()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="method4" finished-at="2024-08-04T21:08:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+        <test-method is-config="true" signature="methodAfterMethod()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodAfterMethod" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodAfterMethod -->
+        <test-method signature="method1()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="method1" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method is-config="true" signature="methodAfterMethod()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodAfterMethod" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodAfterMethod -->
+        <test-method is-config="true" signature="methodBeforeMethod()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodBeforeMethod" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBeforeMethod -->
+        <test-method is-config="true" signature="methodBeforeMethod()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodBeforeMethod" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBeforeMethod -->
+        <test-method signature="method2()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="method2" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method is-config="true" signature="methodAfterMethod()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodAfterMethod" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodAfterMethod -->
+        <test-method is-config="true" signature="methodAfterTest()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodAfterTest" finished-at="2024-08-04T21:08:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodAfterTest -->
+        <test-method is-config="true" signature="methodAfterClass()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodAfterClass" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodAfterClass -->
+        <test-method is-config="true" signature="methodAfterTestBase()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodAfterTestBase" finished-at="2024-08-04T21:08:31 IST" depends-on-methods="testng.MyTest.methodAfterTest" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodAfterTestBase -->
+        <test-method is-config="true" signature="methodAfterSuite()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodAfterSuite" finished-at="2024-08-04T21:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodAfterSuite -->
+        <test-method is-config="true" signature="methodAfterSuiteInBaseClass()[pri:0, instance:testng.MyTest@6ab778a]" started-at="2024-08-04T21:08:31 IST" name="methodAfterSuiteInBaseClass" finished-at="2024-08-04T21:08:31 IST" depends-on-methods="testng.MyTest.methodAfterSuite" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodAfterSuiteInBaseClass -->
+      </class> <!-- testng.MyTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
